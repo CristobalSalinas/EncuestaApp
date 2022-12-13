@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "659792702081",
+    "project_id": "encuestaapp-23f3a",
+    "storage_bucket": "encuestaapp-23f3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659792702081:android:10dde8ef1b313e29e27b80",
+        "android_client_info": {
+          "package_name": "com.codigodemedianoche.encuestaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659792702081-p6dkril7s1mg79h3t606kaj4jsipc6c6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codigodemedianoche.encuestaapp",
+            "certificate_hash": "6e98e65a222ced778297c438902d180bd311921b"
+          }
+        },
+        {
+          "client_id": "659792702081-0f14v087vsf3qsmd5u1oa96q5u1upank.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIUXVkLGiQ5htBkmdI5ocl43tyIRZUB4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659792702081-0f14v087vsf3qsmd5u1oa96q5u1upank.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
