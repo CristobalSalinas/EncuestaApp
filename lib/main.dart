@@ -33,16 +33,16 @@ class _AppState extends State<App> {
       builder: (context, snapshot) {
         // Check for errors
         if (snapshot.hasError) {
-          return Text('error');
+          return const Text('error', textDirection: TextDirection.ltr);
         }
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
-          return MaterialApp();
+          return const MaterialApp(title: 'Hola mundo');
         }
 
         // Otherwise, show something whilst waiting for initialization to complete
-        return Text('loading');
+        return const Text('loading', textDirection: TextDirection.ltr);
       },
     );
   }
